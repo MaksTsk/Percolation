@@ -1,10 +1,9 @@
 import java.awt.Font;
-import java.net.URL;
 
 public class PercolationVisualizer {
 
     // delay in miliseconds (controls animation speed)
-    private static final int DELAY = 10;
+    private static final int DELAY = 20;
 
     // draw N-by-N percolation system
     public static void draw(Percolation perc, int N) {
@@ -42,7 +41,7 @@ public class PercolationVisualizer {
     }
 
     public static void main(String[] args) {
-        String path = "input/jerry47.txt";
+        String path = "input/input20.txt";
 
         In in = new In(path); // input file
         int N = in.readInt();         // N-by-N percolation system
