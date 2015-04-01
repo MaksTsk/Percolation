@@ -40,6 +40,7 @@ public class PercolationVisualizer {
 
     }
 
+
     public static void main(String[] args) {
         String path = "input/input20.txt";
 
