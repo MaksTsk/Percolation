@@ -42,7 +42,7 @@ public class PercolationVisualizer {
 
 
     public static void main(String[] args) {
-        String path = "input/input20.txt";
+        String path = args[0];
 
         In in = new In(path); // input file
         int N = in.readInt();         // N-by-N percolation system
