@@ -1,1 +1,1 @@
-Percolation algorithm realization
+Percolation algorithm realization with Java
